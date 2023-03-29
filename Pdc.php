@@ -1,0 +1,19 @@
+<title>SuperVoyage</title>
+    <!--header-->
+    <?php 
+    include("pages\header+footer\header.php");
+    ?>
+        <br>
+            <br>
+                <br>
+    <!--pdc-->
+    <?php
+    include("pages\Pdc\PDC.html");
+    ?>
+        <br>
+    
+        <br>
+    <!--footer-->
+    <?php 
+    include("pages\header+footer\Footer.html");
+    ?>

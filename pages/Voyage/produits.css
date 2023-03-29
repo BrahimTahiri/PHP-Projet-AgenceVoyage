@@ -1,0 +1,93 @@
+/*Nos Produits */
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+  }
+  
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid > article i {
+    font-size: 48px;
+    line-height: 70px;
+    height: 80px;
+    width: 80px;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: #007bff;
+    text-align: center;
+    color: white;
+    margin-top: -36px;
+  }
+  
+  .grid .text {
+    padding: 16px 20px 30px;
+  }
+  
+  .grid .btn {
+    margin-top: 20px;
+  }
+  
+.row img{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.row a{
+    
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s ease-in-out;
+}
+.row a:hover{
+    width: 250px;
+    transition: 0.5s ease-in-out;
+}
+
+.row img:hover{
+    height: 250px;
+    width: 250px;
+    transition: 0.5s ease-in-out;
+}
+
+.row a:hover{
+    top: 10%;
+}
+
+.titreproduits {
+    background-color: #102c34;
+    height: 100px;
+    
+    
+}
+.h2P {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-shadow: 10px black;
+}
+
+.about {
+    text-align: center;
+    margin: 100px;
+}
+
+.about article h2{
+    text-align: center;
+}
+
+
+/*end Nos produits */
